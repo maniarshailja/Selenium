@@ -1,0 +1,14 @@
+2021-09-03 10:11:03,572  INFO [main] log4jDemo:18 - launch browser
+2021-09-03 10:11:05,331  INFO [main] log4jDemo:21 - opened browser
+2021-09-03 10:11:05,334  INFO [main] log4jDemo:26 - Title value is: Demo Web Shop. Login
+2021-09-03 10:12:01,761  INFO [main] log4jDemo:18 - launch browser
+2021-09-03 10:12:03,504  INFO [main] log4jDemo:21 - opened browser
+2021-09-03 10:12:03,508  INFO [main] log4jDemo:26 - Title value is: Demo Web Shop. Login
+2021-09-03 10:12:03,508 ERROR [main] log4jDemo:40 - expected title is: Demo Web Shop.Login
+2021-09-03 10:33:11,258  INFO [main] Log4jDemo:18 - launch browser
+2021-09-03 10:33:13,218  INFO [main] Log4jDemo:21 - opened browser
+2021-09-03 10:33:13,234  INFO [main] Log4jDemo:26 - Title value is: Demo Web Shop. Login
+2021-09-03 10:33:13,234 ERROR [main] Log4jDemo:40 - expected title is: Demo Web Shop.Login
+2021-09-03 10:33:36,506  INFO [main] Log4jDemo:18 - launch browser
+2021-09-03 10:33:38,632  INFO [main] Log4jDemo:21 - opened browser
+2021-09-03 10:33:38,646  INFO [main] Log4jDemo:26 - Title value is: Demo Web Shop. Login
