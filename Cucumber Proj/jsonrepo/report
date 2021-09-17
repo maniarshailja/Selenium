@@ -1,0 +1,129 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "driver installed",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4623537400,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am on homepage",
+            "match": {
+              "location": "BackgroundDemo.i_am_on_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "verify title",
+        "description": "",
+        "id": "check-title;verify-title",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18203800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should see that title contains \"Shop\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Shop",
+                  "offset": 34
+                }
+              ],
+              "location": "BackgroundDemo.i_should_see_that_title_contains(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "check title",
+    "description": "",
+    "id": "check-title",
+    "keyword": "Feature",
+    "uri": "background.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Successful login with valid credentials",
+        "description": "",
+        "id": "verify-login;successful-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2779756200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on login page",
+            "match": {
+              "location": "Signin.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2337146100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters valid data",
+            "match": {
+              "location": "Signin.user_enters_valid_data()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 853790600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should see logout link",
+            "match": {
+              "location": "Signin.user_should_see_logout_link()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Verify Login",
+    "description": "",
+    "id": "verify-login",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]

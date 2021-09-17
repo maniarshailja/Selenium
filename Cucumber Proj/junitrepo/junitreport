@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="11.378704">
+    <testcase classname="check title" name="verify title" time="5.343857">
+        <system-out>
+            <![CDATA[Given I am on homepage......................................................passed
+Then I should see that title contains "Shop"................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify Login" name="Successful login with valid credentials" time="6.034847">
+        <system-out>
+            <![CDATA[Given User is on login page.................................................passed
+When user enters valid data.................................................passed
+Then user should see logout link............................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
